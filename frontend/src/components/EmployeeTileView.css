@@ -1,0 +1,57 @@
+.tile-view-section {
+  margin: 2rem 0;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+
+.tile-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.employee-tile {
+  background: #f5f5f5;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 220px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.employee-tile:hover {
+  transform: scale(1.02);
+}
+
+.tile-header {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.tile-actions button {
+  margin-right: 5px;
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 4px 6px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tile-actions button:hover {
+  background: #0056b3;
+}
+
+.tile-details {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 8px;
+  color: #333;
+  line-height: 1.4;
+}

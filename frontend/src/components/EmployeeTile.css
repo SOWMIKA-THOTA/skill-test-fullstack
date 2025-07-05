@@ -1,0 +1,20 @@
+.employee-tile {
+  border: 1px solid #ccc;
+  padding: 12px;
+  margin: 10px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+  background: #f9f9f9;
+  width: 220px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.tile-buttons button {
+  margin: 4px 4px 4px 0;
+}
+
+.tile-details {
+  margin-top: 10px;
+  font-size: 14px;
+}
